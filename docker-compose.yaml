@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    container_name: go-redirect
+    build: .
+    ports:
+      - "8300:8300"
+    volumes:
+      - ./config.yaml:/root/config.yaml

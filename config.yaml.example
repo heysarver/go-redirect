@@ -1,0 +1,7 @@
+hosts:
+  - hostname: "domain1.com"
+    destinationURL: "https://destination1.com"
+    statusCode: 302
+  - hostname: "domain2.com"
+    destinationURL: "https://destination2.com"
+    statusCode: 301
